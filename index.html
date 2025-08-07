@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elegant Glassmorphism Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      height: 100vh;
+      background: linear-gradient(135deg, #8EC5FC 0%, #E0C3FC 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 40px;
+      width: 350px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      color: #fff;
+    }
+
+    .card h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .card p {
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #ffffffaa;
+      color: #000;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .card a:hover {
+      background: #fff;
+      color: #333;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 500px) {
+      .card {
+        width: 90%;
+        padding: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hello, Dreamer!</h1>
+    <p>This is a modern and aesthetic HTML design. Let your creativity shine!</p>
+    <a href="#">Explore More</a>
+  </div>
+</body>
+</html>
